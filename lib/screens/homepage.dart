@@ -70,13 +70,17 @@ class Home extends StatelessWidget {
                             backgroundColor: whiteCol,
                             foregroundColor: darkMainCol,
                             side: const BorderSide(
-                                color: secCol,
-                                width: 1,
-                                style: BorderStyle.solid),
+                              color: secCol,
+                              width: 1,
+                              style: BorderStyle.solid,
+                            ),
                             shape: const RoundedRectangleBorder(
-                                borderRadius: BorderRadius.zero),
+                              borderRadius: BorderRadius.zero,
+                            ),
                             padding: const EdgeInsets.symmetric(
-                                horizontal: 30, vertical: 20),
+                              horizontal: 30,
+                              vertical: 20,
+                            ),
                             textStyle: const TextStyle(
                               fontSize: 18,
                             ),
